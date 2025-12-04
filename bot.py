@@ -2,8 +2,8 @@ import time, uuid, threading
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = "8200912847:AAFFxyRXiQdfB8y-W7SUGRmHbzbChxfg0pc"
-ADMIN_ID = 1745389394  # Replace with your Telegram user ID
+BOT_TOKEN = "enter your token here"
+ADMIN_ID =  # Replace with your Telegram user ID
 
 uploaded_files = {}  # token: {file_id, timestamp}
 user_file_access = {}  # user_id: {file_id, expiry}
